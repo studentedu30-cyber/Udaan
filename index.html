@@ -111,12 +111,20 @@
         border-bottom: 2px solid #90EE90;
         color: #90EE90;
     }
+    @media (min-width: 1280px) {
+    #navbarNav {
+        display: flex !important;
+    }
+    .navbar-toggler {
+        display: none !important;
+    }
+}
         </style>
 </head>
 <body class="dark-theme">
     
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark-custom fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark-custom fixed-top">
         <div class="container-fluid px-4 py-2">
             <a class="navbar-brand fw-bold" href="#home">
                 <i class="fas fa-graduation-cap me-2"></i>UDAAN
